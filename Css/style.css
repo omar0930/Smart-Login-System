@@ -1,0 +1,51 @@
+/*  General Body Styling */
+body {
+  background-color: #24353f;
+  font-family: "Cairo", sans-serif;
+  color: #fff;
+}
+
+/*  Login / Signup Card */
+.login-box {
+  background-color: #0d1b22;
+  border-radius: 15px;
+  width: 60%;
+  max-width: 800px;
+  font-size: 1rem;
+}
+
+/* Input Styling */
+input {
+  color: #fff;
+  background-color: transparent;
+  border: 1px solid #ccc;
+}
+
+input::placeholder {
+  color: #ccc;
+  font-size: 0.9rem;
+}
+
+input:focus {
+  box-shadow: none;
+  border-color: #17a2b8;
+  background-color: #0d1b22;
+  color: #fff;
+}
+
+/*  Button Styling */
+button {
+  transition: 0.3s all ease;
+}
+
+button:hover {
+  background-color: #17a2b8;
+  color: #fff;
+}
+
+/* errore message */
+#loginMessage,
+#signupMessage {
+  font-weight: bold;
+  font-size: 0.95rem;
+}
